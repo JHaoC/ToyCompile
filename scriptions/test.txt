@@ -1,0 +1,15 @@
+a = 1 ;
+b = 2 ;
+c = 20 ;
+d = 0 ;
+while ( a < 40 ) { 
+    a = a + 1 ; 
+    c = c + a ; 
+    b = 1.2 * b ; 
+    if ( c < b ) { d = d + 1 ; print ( a ) ; print ( d ) } ;
+} ;
+print ( a ) ;
+print ( b ) ;
+print ( c ) ;
+print ( d ) ;
+
